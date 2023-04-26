@@ -9,6 +9,7 @@ import Team from './Team';
 import About from './About';
 import Client from './Client';
 import Contact from './Contact';
+import Ad from './Ad';
 
 class Home extends Component {
     render() {
@@ -33,6 +34,8 @@ class Home extends Component {
                 <Team/>
 
                 <Contact/>
+
+                <Ad />
             </div>
         );
     };

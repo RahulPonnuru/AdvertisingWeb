@@ -10,6 +10,9 @@ import Portfolio from './components/pages/Portfolio';
 import Team from './components/pages/Team';
 import Services from './components/pages/Services';
 import Contact from './components/pages/Contact';
+import Login from './components/pages/Login';
+import Registration from './components/pages/Registration';
+import Ad from './components/pages/Ad';
 
 
 class App extends Component {
@@ -23,6 +26,9 @@ class App extends Component {
                     <Route exact={true} path="/team" component={Team}/>
                     <Route exact={true} path="/services" component={Services}/>
                     <Route exact={true} path="/contact" component={Contact}/>
+                    <Route exact={true} path="/ad" component={Ad}/>
+                    <Route exact={true} path="/login" component={Login}/>
+                    <Route exact={true} path="/registration" component={Registration}/>
                     <Redirect to="/" />
                 </PageWrapper>
                 <Footer/>

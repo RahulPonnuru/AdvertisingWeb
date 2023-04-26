@@ -9,20 +9,21 @@ import img4 from '../assets/team/Prajwal.jpg';
 
 const teamMember = [
     {
+        name: 'Ayush Patni',
+        title: 'Team Member',
+        image: img2
+        
+    }, {
         name: 'Sahil Bagati',
-        title: 'Lead Designer',
+        title: 'Team Member',
         image: img1
     }, {
-        name: 'Ayush Patni',
-        title: 'Team Sleeper',
-        image: img2
-    }, {
         name: 'Rahul Ponnuru',
-        title: 'Lead Developer',
+        title: 'Team Member',
         image: img3
     },{
         name: 'Prajwal Achwale',
-        title: 'Lead Developer',
+        title: 'Team Member',
         image: img4
     }
 ];
@@ -41,7 +42,7 @@ class Team extends Component {
                             {teamMember.map((team, index) => {
                                 return <TeamMember {...team} key={index}/>
                             })
-}
+            }
                         </div>
                         <div class="row">
                             <div class="col-lg-8 mx-auto text-center">

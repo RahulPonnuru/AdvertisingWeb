@@ -3,11 +3,6 @@ import PortfolioItem from '../Common/PortfolioItem';
 
 // Images
 import img1 from '../assets/img/Adver1.webp';
-import img2 from '../assets/img/Adver5.jpeg';
-import img3 from '../assets/img/Adver5.jpeg';
-import img4 from '../assets/img/Adver6.jpg';
-import img5 from '../assets/img/Adver1.webp';
-import img6 from '../assets/img/Adver5.jpeg';
 
 const portfolio = [
     {
@@ -17,23 +12,23 @@ const portfolio = [
     }, {
         title: 'Digital Marketing',
         subtitle: 'Showcase your ad on worlds most preffered medium.',
-        image: img2
+        image: img1
     }, {
         title: 'NewsPaper Advertising',
         subtitle: 'Book your ad space',
-        image: img3
+        image: img1
     }, {
         title: 'Radio Advertising',
         subtitle: 'Ads on leading radio stations',
-        image: img4
+        image: img1
     }, {
         title: 'Telivison Advertising',
         subtitle: 'Now TV advertising is easy',
-        image: img5
+        image: img1
     }, {
         title: 'Cinenma Advertising',
         subtitle: 'Showcase your AD on 70mm screen',
-        image: img6
+        image: img1
     }
 ]
 

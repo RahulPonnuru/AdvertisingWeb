@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
 
+
 class PageWrapper extends Component {
     render() {
         return (
@@ -21,6 +22,7 @@ class PageWrapper extends Component {
                         </button>
                         <div className="collapse navbar-collapse" id="navbarResponsive">
                             <ul className="navbar-nav text-uppercase ml-auto mr-auto">
+                            
                                 <li className="nav-item">
                                     <Link className="nav-link js-scroll-trigger" to="/">Home</Link>
                                 </li>
@@ -38,6 +40,15 @@ class PageWrapper extends Component {
                                 </li>
                                 <li className="nav-item">
                                     <Link className="nav-link js-scroll-trigger" to="/contact">Contact</Link>
+                                </li>
+                                <li className="nav-item">
+                                    <Link className="nav-link js-scroll-trigger" to="/ad">List your Ad</Link>
+                                </li>
+                                <li className="nav-item">
+                                    <Link className="nav-link js-scroll-trigger" to="/login">Login</Link>
+                                </li>
+                                <li className="nav-item">
+                                    <Link className="nav-link js-scroll-trigger" to="registration">SignUp</Link>
                                 </li>
                             </ul>
                         </div>
